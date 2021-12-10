@@ -44,4 +44,19 @@ On top of that, I have been introduced to the principle in programming called *D
 
 #### Functional Programming
 
+Functional programming is about verbs or actions. Object oriented programming is about nouns. The objective is to make "pure" functions 
 
+### December 10th, 2021
+
+Today, I began watching Bianca Gandolfo's [JavaScript: From Fundamentals to Functional JS, v2](https://frontendmasters.com/courses/js-fundamentals-functional-v2/) course on Frontend Masters.
+
+Object assignment with dots:
+
+```
+var person = {};
+    person.name = "Mrs. White";
+
+var person = {
+    name: "Mrs. White"
+};
+```
