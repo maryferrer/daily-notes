@@ -19,6 +19,7 @@ let dog = {
 
 In the above code, we are creating an object called **dog**. The object **dog** has three properties: *name*, *color* and *numLegs* and each property is assigned a value.
 
+
 ### December 9th, 2021
 #### Object Oriented Programming cont.
 
@@ -45,6 +46,7 @@ On top of that, I have been introduced to the principle in programming called *D
 #### Functional Programming
 
 Functional programming is about verbs or actions. Object oriented programming is about nouns. The objective is to make "pure" functions 
+
 
 ### December 10th, 2021
 
