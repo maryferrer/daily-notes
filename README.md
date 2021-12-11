@@ -52,6 +52,8 @@ Today, I began watching Bianca Gandolfo's [JavaScript: From Fundamentals to Func
 
 Object assignment with dots:
 
+You can use either method below to assign the object person with a key "name" with a value "Mrs. White".
+
 ```
 var person = {};
     person.name = "Mrs. White";
@@ -59,4 +61,31 @@ var person = {};
 var person = {
     name: "Mrs. White"
 };
+```
+
+Learning notes:
+- A **primitive value** is a string, number, boolean, null, undefined and NaN.
+- A **non-primitive** value can be a function, array, object, etc.
+- When you store a non-primitive value somewhere, it is passed by reference.
+- Storing a value by reference or by value. Primitive values cannot be re-assigned. We store primitive values by value.
+- Arrays are just objects. A big difference is that arrays have specific methods on them. Arrays also have a sorting and numbering to them as they are zero-index based.
+
+Exercise 1: Creating a clue game and exercising different nested arrays.
+
+```
+let game = {};
+
+game.murderer = "??";
+
+game['weapons'] = [
+    {type: "candlestick", location: "parlor"},
+    {type: "lead pipe", location: "basement"},
+    {type: "spoon", location: "kitchen"},
+    {type: "harsh words", location: "heart"}
+    ];
+
+game.character = [];
+game.character[0] = 'Miss Scarlet';
+game.name.push('Mr. Green');
+
 ```
