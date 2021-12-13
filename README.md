@@ -91,3 +91,23 @@ game.character[0] = 'Miss Scarlet';
 game.name.push('Mr. Green');
 
 ```
+
+
+#### December 13th, 2021
+
+#### ES6 Destructuring
+Allows you to assign multipe targets to multiple sources. This simplifies code and makes code less verbose.
+
+```
+const [first, second] = [true, false];
+```
+
+In the code above, two variables are declared within an array: first and second. Both variables are assigned in order to the values in the array to the right. First is assigned true and second is assigned false.
+
+```
+const {first, second} = {first = 0, second = 1}
+```
+
+In the code above, we are making variable declarations for objects. Since these are objects, you have to remember that unlike arrays, objects do not have an order. Thus, when you declare and assign values to objects in this way, the variable names have to match.
+
+
