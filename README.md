@@ -111,3 +111,30 @@ const {first, second} = {first = 0, second = 1}
 In the code above, we are making variable declarations for objects. Since these are objects, you have to remember that unlike arrays, objects do not have an order. Thus, when you declare and assign values to objects in this way, the variable names have to match.
 
 
+#### December 15th, 2021
+
+### ES6 Destructuring cont.
+
+## Destructuring an array:
+```
+var [a, b] = [1, 2];
+console.log(a, b); ==> 1 2
+```
+Variables 'a' and 'b' are created and assigned to the values in order to the array on the right. 
+
+
+## Swap variables easily without creating a temporary value:
+
+```
+var a = 1, b = 2;
+```
+How would you reassign the values so that a = 2 and b = 1 instead? Without destructing, you would have to create a temporary variable to store a in.
+```
+var temp = a
+a = b
+b = temp
+```
+This can be done much faster using destructuring:
+```
+[b, a] = [a, b];
+```
