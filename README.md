@@ -139,3 +139,20 @@ This can be done much faster using destructuring:
 ```
 [b, a] = [a, b];
 ```
+
+##### Destructuring objects examples
+
+```
+var {user: x} = {user: 3};
+console.log(x);
+// => 3
+```
+
+To assign a value to a property in an object via destructuring, property names must match. The code above will work but the code below does not.
+
+```
+var {user: x} = {user1: 3};
+console.log(x);
+// => undefined
+```
+
