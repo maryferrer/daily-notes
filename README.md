@@ -156,3 +156,24 @@ console.log(x);
 // => undefined
 ```
 
+var suspects = [
+    {
+        name: "Rusty",
+        color: "orange"
+    },
+    {
+        name: "Miss Scarlet",
+        color: "red"
+    }
+]
+
+### January 3rd, 2022
+
+Happy New Year! Let's get back to studying.
+
+Over the Holidays, I started taking Brian Holt's Complete Intro to React course on FrontEnd Masters.
+
+React is a JavaScript library that allows developers to build user interfaces. Developers can write and reuse components in their applications. Today, we are building a pet adoption application. Like Brian, I'll be using JSX. JSX is a syntax that allows us to put HTML in JavaScript.
+
+React has a strict mode. Strict mode is a handy tool to ensure that your app isn't using dated or soon to be deprecated features and APIs in production.
+
