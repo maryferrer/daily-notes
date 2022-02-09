@@ -177,3 +177,22 @@ React is a JavaScript library that allows developers to build user interfaces. D
 
 React has a strict mode. Strict mode is a handy tool to ensure that your app isn't using dated or soon to be deprecated features and APIs in production.
 
+### February 8th, 2022
+
+I've been challenging myself with some Javascript algorithm challenges in preparation for the inevitable interview coding questions.
+
+Ex.: Write a function that returns the sum of all arguments passed. The number of arguments is not defined.
+
+function sum(x) {
+  const args = [...arguments]
+
+  let total = 0
+  
+  for (let i = 0; i < args.length; i++) {
+      total += args[i]
+  }
+  return total;
+}
+console.log("sum", sum(2, 3, 4, 5)); //expects 14
+
+In the above example, I make use of *arguments* which is an array-like object accessible inside functions. It contains the values of the arguments passed to that function. First, I declare a variable args which is an array that I spread the arguments into. The variable total is set to 0 and will be used to calculate the running total. I use a for loop to iterate over the args array and add each argument to the total.
